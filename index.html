@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>What Would Jerry Say</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Random Jerry quote generator">
+		<meta name="keywords" content="Jerry, Smith, Rick, Morty">
+		<meta name="author" content="BuiltByMeT">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Galindo&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles/index.css" type="text/css">
+	</head>
+	<body>
+		<div class="centered-wrapper">
+			<h1>What Would Jerry Say</h1>
+			<main>
+				<section class="jerry-content">
+					<iframe src="https://giphy.com/embed/QvH2Em7M2kb04VEOG2" width="480" height="480" frameBorder="0" class="giphy-embed" id="jerry-gif" allowFullScreen></iframe>
+					<p id="giphy-text"><a href="https://giphy.com/gifs/rickandmorty-season-2-adult-swim-rick-and-morty-QvH2Em7M2kb04VEOG2" id="giphy-link">via GIPHY</a></p>
+				</section>
+			</main>
+			<footer>
+				<section class="filter-buttons">
+					<!--
+					not needed anymore but keeping anyways b/c js. if used again add hidden=True to every other button tag
+					<button id="change-random-filter" value="change-random-filter" onclick="changeButtons();">Change to Filter Buttons</button>
+					<br>
+					-->
+					<button id="random-jerry" value="random-jerry" onclick="randomJerry('random');">
+						Random
+					</button>
+					<button id="inspirational-jerry" value="inspirational-jerry" onclick="randomJerry('inspirational');">
+						Inspirational
+					</button>
+					<button id="funny-jerry" value="funny-jerry" onclick="randomJerry('funny');">
+						Funny
+					</button>
+					<button id="deep-jerry" value="deep-jerry" onclick="randomJerry('deep');">
+						Deep
+					</button>
+					<button id="sad-jerry" value="sad-jerry" onclick="randomJerry('sad');">
+						Sad
+					</button>
+					<button id="comforting-jerry" value="comforting-jerry" onclick="randomJerry('comforting');">
+						Comforting
+					</button>
+					<button id="celebratory-jerry" value="celebratory-jerry" onclick="randomJerry('celebration');">
+						Congratulatory
+					</button>
+					<br>
+					<a href="https://github.com/BuiltByMeT/WhatWouldJerrySay"><span style="font-size: 0.5em;">source</span></a>
+					<span style="font-size: 0.5em;"> | </span>
+					<a href="https://codepen.io/builtbymet/full/JjNxwbv"><span style="font-size: 0.5em;">pen</span></a>
+				</section>
+			</footer>
+		</div>
+		<script src="scripts/listofjerries.js" type="text/javascript"></script>
+		<script src="scripts/main.js" type="text/javascript"></script>
+	</body>
+</html>

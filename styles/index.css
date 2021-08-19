@@ -1,0 +1,66 @@
+/*  **COLORS**
+
+green: #586e30;
+lightbrown: #c2aa86;
+darkbrown: #76562d;
+
+*/
+
+html {
+	background-color: #586e30;
+	font-family: 'Fascinate', 'Galindo';
+	font-size: 1.5em;
+}
+
+html, a {
+	color: #c2aa86;
+}
+
+a:hover {
+	color: blue;
+}
+
+iframe {
+	max-width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+button {
+	border-radius: 20%;
+	border-color: #586e30;
+	color: #586e30;
+	font-size: 0.75em;
+}
+
+.centered-wrapper {
+	margin: auto;
+	text-align: center;
+}
+
+.dark-brown-border {
+	border-color: #76562d;
+	border-width: 10px;
+	border-style: solid;
+}
+
+.light-brown-border {
+	border-color: #c2aa86;
+	border-width: 10px;
+	border-style: solid;
+}
+
+/*.jerry-content {
+	height: 480px;
+}*/
+
+#giphy-text {
+	font-size: 0.5em;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 1em;
+}
