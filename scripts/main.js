@@ -36,8 +36,9 @@ function filterJerries(emotion) {
 		let thisJerrysEmotions = jerray[i].emotion;
 		
 		for (let j = 0; j < thisJerrysEmotions.length; j++) {
-			if (thisJerrysEmotions[j] === emotion)
+			if (thisJerrysEmotions[j] === emotion) {
 				emotionalJerries.push(jerray[i]);
+			}
 		}
 	}
 	//console.log(emotionalJerries);
@@ -56,7 +57,7 @@ function randomJerry(emotion) {
 	let theOneTrueJerrysLink = acceptableJerries[whichJerry].link;
 	
 	document.getElementById('jerry-gif').setAttribute('src',theOneTrueJerry);
-	document.getElementById('giphy-link').href = theOneTrueJerry;
+	document.getElementById('giphy-link').href = theOneTrueJerrysLink;
 }
 
 function adjustIframeHeight() {
